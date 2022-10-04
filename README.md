@@ -2,7 +2,7 @@
 This is a repository to prepare the defense of the __School 42__ project __Born2beroot__.
 For more details about this project, read the subjet, [also included in this repository](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
-## Comandos APT y `aptitude`
+## APT y `aptitude`
 Ambos están relacionados con la gestión de paquetes. Se usan para la búsqueda, eliminación y e instalación de paquetes, pero tienen enfoques diferentes.
 
 ### APT *(Advanced Packaging Tool)*
@@ -23,3 +23,10 @@ La actualización de paquetes instalados incluyen:
 
 Para utilizar `aptitude` por terminal de comandos, al igual que `apt-get`, hay que estar logueados como super-usuario (root) o utilizar el comando `sudo`. En [este enlace](https://wiki.debian.org/Aptitude) hay una lista de los comandos comunes de `aptitude`.
 
+## SELinux y AppArmor
+
+### *Security-Enhanced Linux* (SELinux)
+SELinux es una __arquitectura de seguridad__ para los sistemas Linux que permite que los administradores tengan mayor control sobre las personas que pueden acceder a ellos. 
+
+### AppArmor (*Application Armor*)
+AppArmor es un __módulo de seguridad__ del kernel Linux que permite al administrador del sistema __restringir las capacidades de un programa__. 
