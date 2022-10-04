@@ -5,4 +5,4 @@ This is a repository to prepare the defense of the School 42 project Born2beroot
 Ambos están relacionados con la gestión de paquetes. Se usan para la búsqueda, eliminación y e instalación de paquetes, pero tienen enfoques diferentes.
 
 ### APT *(Advanced Packaging Tool)*
-APT es una herramienta de código abierto. APT está diseñado para manejar la instalación y eliminación de software. APT formaba parte del paquete .deb de Debian; sin embargo, ahora funciona con RPM [Package Manager](https://rpm.org/).
+APT es una herramienta de código abierto creada por el proyecto Debian. APT está diseñada para manejar la instalación y eliminación de software. APT formaba parte del paquete .deb de Debian; sin embargo, ahora funciona con [RPM Package Manager](https://rpm.org/). Incluye programas de línea de comandos que son: `apt`, `apt-get` y `apt-cache`.
