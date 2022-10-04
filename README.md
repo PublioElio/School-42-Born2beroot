@@ -25,8 +25,11 @@ Para utilizar `aptitude` por terminal de comandos, al igual que `apt-get`, hay q
 
 ## SELinux y AppArmor
 
-### *Security-Enhanced Linux* (SELinux)
+### SELinux *Security-Enhanced Linux* 
 SELinux es una __arquitectura de seguridad__ para los sistemas Linux que permite que los administradores tengan mayor control sobre las personas que pueden acceder a ellos. SELinux define los controles de acceso para las aplicaciones, los procesos y los archivos dentro de un sistema. Utiliza políticas de seguridad, que consisten en un conjunto de __reglas para indicar a SELinux a qué elementos se puede acceder__.
 
-### AppArmor (*Application Armor*)
-AppArmor es un __módulo de seguridad__ del kernel Linux que permite al administrador del sistema __restringir las capacidades de un programa__. 
+### AppArmor *Application Armor*
+AppArmor es un __módulo de seguridad__ del kernel Linux que permite al administrador del sistema __restringir las capacidades de un programa__.
+
+## SSH *Secure SHell*
+SSH, o intérprete de comandos seguro, es el nombre de un protocolo y el programa que lo implementa, cuya principal función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada.
