@@ -1,6 +1,6 @@
 # School 42 Born2beroot
 This is a repository to prepare the defense of the __School 42__ project __Born2beroot__.
-For more details about this project, read the subjet.
+For more details about this project, read the subjet, [also included in this repository](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
 ## Comandos APT y aptitude
 Ambos están relacionados con la gestión de paquetes. Se usan para la búsqueda, eliminación y e instalación de paquetes, pero tienen enfoques diferentes.
