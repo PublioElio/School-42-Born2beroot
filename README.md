@@ -49,3 +49,10 @@ Accediendo a un servidor remoto a través del protocolo SSH los riesgos de segur
 
 ## UFW(*Uncomplicated Firewall*)
 UFW es un cortafuegos que destaca por su simplicidad desarrollado por Ubuntu. Utiliza la línea de comandos para configurar las iptables usando un pequeño número de comandos simples. UFW está escrito en python y es un programa para GNU/Linux.
+
+### Check partitions during evaluation
+
+```
+$ lsblk
+```
+
