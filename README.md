@@ -60,3 +60,8 @@ $ lsblk
 ```
 $ adduser <username> sudo
 ```
+### Check if an user is in a group
+
+´´´
+$ getent group sudo
+´´´
