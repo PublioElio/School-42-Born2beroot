@@ -90,7 +90,7 @@ $ sudo aa-status
 
 #### Change password
 ```
-sudo passwd <user/root>
+$ sudo passwd <user/root>
 ```
 
 ### Changing the Hostname
