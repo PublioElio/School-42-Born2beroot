@@ -5,19 +5,19 @@ For more details about this project, read the [subject](https://github.com/Publi
 ## Why a virtual machine(VM)?
 The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the same time, on the same machine. Companies that use many applications must use different configurations of hardware, which has a high maintenance cost, in addition to taking up physical space. VMs are the answer to this and other problems, because it's like emulating an OS. This is a list of the most common reasons to install a VM:
 
-- Try new operating systems
+- Test software for a different OS
 - Run old or incompatible software
 - Develop software for other platforms
 - Handle potential malware safely
 - Clone a system to another machine
 
 ## APT y `aptitude`
-Ambos están relacionados con la gestión de paquetes. Se usan para la búsqueda, eliminación y e instalación de paquetes, pero tienen enfoques diferentes.
+Both are related to package management. They are used for package search, removal, and installation, but have different approaches.
 
 ### APT *(Advanced Packaging Tool)*
-APT es una herramienta de código abierto creada por el proyecto __Debian__. APT está diseñada para manejar la instalación y eliminación de software; formaba parte del paquete `.deb` de Debian; sin embargo, ahora funciona con __[RPM Package Manager](https://rpm.org/)__. Incluye programas de línea de comandos: `apt`, `apt-get` y `apt-cache`.
+APT is an open source tool created for the __Debian__ project. APT is designed to handle the installation and removal of software; it was part of the Debian `.deb` package; however, it now works with __[RPM Package Manager](https://rpm.org/)__. It includes command line programs: `apt`, `apt-get` and `apt-cache`.
 
-APT busca en su lista de paquetes en caché y enumera las dependencias que deben __instalarse o actualizarse__. APT recupera, configura e instala las dependencias automáticamente.
+APT searchs in a list of cached packages and shows the dependencies that need to be __installed or updated__. APT automatically downloads, configures, and installs dependencies.
 
 #### Actualización de paquetes con APT
 
