@@ -75,4 +75,8 @@ $ sudo service ssh status
 ```
 $ sudo ufw status verbose
 ```
+### Check AppArmor status
+```
+$ sudo aa-status
+
 
