@@ -65,7 +65,7 @@ $ getent group sudo
 ### Check all sudo logs
 The `sudologs file is in `var/log/sudo/sudologs`
 ```
-$ sudo cat var/log/sudo/sudologs
+$ sudo cat /var/log/sudo/sudologs
 ```
 ### Check SSH status via `sudo service ssh status`
 ```
