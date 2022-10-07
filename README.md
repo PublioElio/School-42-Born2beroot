@@ -88,4 +88,13 @@ $ sudo aa-status
 - The password must not include the name of the user.
 - The following rule does not apply to the root password: The password must have at least 7 characters that are not part of the former password.
 
+#### Change password
+```
+sudo passwd <user/root>
+```
+
+### Changing the Hostname
+The hostname of our virtual machine must be our intra login + 42. Whether we correctly named it during the installation or not, we will have to change it during the evaluation. So we must know how. The following command will do the trick:
+
+$ sudo hostnamectl set-hostname <new_hostname>
 
