@@ -71,3 +71,8 @@ $ sudo cat var/log/sudo/sudologs
 ```
 $ sudo service ssh status
 ```
+### Check UFW status via sudo ufw status.
+```
+$ sudo ufw status
+```
+$ sudo ufw status
