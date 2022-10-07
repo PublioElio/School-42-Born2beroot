@@ -55,4 +55,8 @@ UFW es un cortafuegos que destaca por su simplicidad desarrollado por Ubuntu. Ut
 ```
 $ lsblk
 ```
+### Add user to sudo group
 
+```
+$ adduser <username> sudo
+```
