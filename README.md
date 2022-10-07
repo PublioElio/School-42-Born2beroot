@@ -1,6 +1,6 @@
 # School 42 Born2beRoot
 This is a repository to prepare the defense of the __School 42__ project __Born2beroot__.
-For more details about this project, read the subjet, [also included in this repository](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
+For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
 ## Why a virtual machine(VM)?
 The main purpose of __VMs__ is to operate multiple operating systems at the same time, from the same piece of hardware. Businesses that use a wide array of applications might find themselves deploying many different consoles and hardware installations to manage their apps. Also, hardware requires physical space and has plenty of upkeep costs. VMs fix those issues, because is like emulating a computer system. This is a list of the most common resasons for installing a VM:
