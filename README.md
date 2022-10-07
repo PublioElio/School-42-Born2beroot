@@ -112,6 +112,11 @@ For the changes to take effect, we must restart the machine, which may take some
 ```
 $ hostnamectl status
 ```
+## Connect the VM via SSH
+```
+$ ssh adiaz-be@localhost -p 4242
+```
+
 ## User Management
 At startup, there must be at least two users: root and a personal user with our intra login as a username. For the evaluation, we must also be able to show a list of all users, add or delete user accounts, change their usernames, add or remove them from groups, etc. The following commands are necessary to do all of that:
 
