@@ -95,6 +95,12 @@ $ sudo passwd <user/root>
 
 ### Changing the Hostname
 The hostname of our virtual machine must be our intra login + 42. Whether we correctly named it during the installation or not, we will have to change it during the evaluation. So we must know how. The following command will do the trick:
-
+```
 $ sudo hostnamectl set-hostname <new_hostname>
+```
+We could also change the hostname by editing the /etc/hostname file instead.
 
+For the changes to take effect, we must restart the machine, which may take some time. The alternative is simply to show the hostname status after the change:
+```
+$ hostnamectl status
+```
