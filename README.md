@@ -67,4 +67,7 @@ The `sudologs file is in `var/log/sudo/sudologs`
 ```
 $ sudo cat var/log/sudo/sudologs
 ```
-### 
+### Check SSH status via `sudo service ssh status`
+```
+$ sudo service ssh status
+```
