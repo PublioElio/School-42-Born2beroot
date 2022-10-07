@@ -51,12 +51,10 @@ Accediendo a un servidor remoto a través del protocolo SSH los riesgos de segur
 UFW es un cortafuegos que destaca por su simplicidad desarrollado por Ubuntu. Utiliza la línea de comandos para configurar las iptables usando un pequeño número de comandos simples. UFW está escrito en python y es un programa para GNU/Linux.
 
 ### Check partitions during evaluation
-
 ```
 $ lsblk
 ```
 ### Add user to sudo group
-
 ```
 $ adduser <username> sudo
 ```
@@ -66,6 +64,7 @@ $ getent group sudo
 ```
 ### Check all sudo logs
 The sudologs file is in var/log/sudo/sudologs
-
 ```
 $ sudo cat var/log/sudo/sudologs
+```
+### 
