@@ -92,7 +92,10 @@ $ sudo aa-status
 ```
 $ sudo passwd <user/root>
 ```
-
+### Check monitoring / Cron service archives
+```
+$ sudo cat /root/monitoring.sh
+```
 ### Changing the Hostname
 The hostname of our virtual machine must be our intra __login + 42__. Whether we correctly named it during the installation or not, we will have to change it during the evaluation. So we must know how. The following command will do the trick:
 ```
