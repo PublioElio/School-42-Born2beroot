@@ -63,9 +63,9 @@ $ adduser <username> sudo
 $ getent group sudo
 ```
 ### Check all sudo logs
-The `sudologs file is in `var/log/sudo/sudologs`
+The `sudologs file is in `var/log/sudo/sudo.log`
 ```
-$ sudo cat /var/log/sudo/sudologs
+$ sudo cat /var/log/sudo/sudo.log
 ```
 ### Check SSH status via `sudo service ssh status`
 ```
@@ -96,6 +96,11 @@ $ sudo passwd <user/root>
 ```
 $ sudo cat /root/monitoring.sh
 ```
+Check the archive to timing the messages in console:
+```
+$ sudo cat /root/sleep.sh
+```
+
 ### Changing the Hostname
 The hostname of our virtual machine must be our intra __login + 42__. Whether we correctly named it during the installation or not, we will have to change it during the evaluation. So we must know how. The following command will do the trick:
 ```
