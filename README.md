@@ -114,3 +114,14 @@ At startup, there must be at least two users: root and a personal user with our 
 - users : shows a list of all currently logged in users.
 - cat /etc/passwd | cut -d ":" -f 1 : displays a list of all users on the machine.
 - cat /etc/passwd | awk -F '{print $1}' : same as above.
+
+Group Management
+In the same way, we will have to manage user groups. Our default personal user must be in the sudo and user42 groups. The following commands need to be mastered for the evaluation:
+
+groupadd : creates a new group.
+gpasswd -a : adds a user to a group.
+gpasswd -d : removes a user from a group.
+groupdel : deletes a group.
+groups : displays the groups of a user.
+id -g : shows a user’s main group ID.
+getent group : displays a list of all users in a group.
