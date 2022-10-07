@@ -63,7 +63,7 @@ $ adduser <username> sudo
 $ getent group sudo
 ```
 ### Check all sudo logs
-The sudologs file is in var/log/sudo/sudologs
+The `sudologs file is in `var/log/sudo/sudologs`
 ```
 $ sudo cat var/log/sudo/sudologs
 ```
