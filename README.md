@@ -61,7 +61,12 @@ $ lsblk
 $ adduser <username> sudo
 ```
 ### Check if an user is in a group
-
-´´´
+```
 $ getent group sudo
-´´´
+
+```
+### Check all sudo logs
+The sudologs file is in var/log/sudo/sudologs
+
+```
+$ sudo cat var/log/sudo/sudologs
