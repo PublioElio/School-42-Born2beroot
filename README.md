@@ -82,7 +82,7 @@ $ getent group <groupname>
 ```
 __Get all groups of an user__
 ```
-$ id -Gn userName
+$ id -Gn <username>
 ```
 __List all groups and users__
 ```
