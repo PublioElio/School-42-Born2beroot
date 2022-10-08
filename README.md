@@ -133,6 +133,11 @@ $ sudo systemctl status lighttpd
 To check that lightspeed is working: in a browser on the host machine, connect to the following address and port: : [http://127.0.0.1:8080](http://127.0.0.1:8080)
 Now, check that PHP is correctly installed: [http://127.0.0.1:8080/info.php](http://127.0.0.1:8080/info.php)
 
+### Check VM status
+```
+$ shasum 2022-10-08T12-09-27-035734000Z.sav
+```
+
 ## User Management
 At startup, there must be at least two users: root and a personal user with our intra login as a username. For the evaluation, we must also be able to show a list of all users, add or delete user accounts, change their usernames, add or remove them from groups, etc. The following commands are necessary to do all of that:
 
