@@ -162,6 +162,12 @@ __Check partitions during evaluation__
 ```
 $ lsblk
 ```
+## LVM *(Logical Volume Manager)*
+LVM is a software that allows the implementation of RAID *(Redundant Array of Inexpensive Disks)* from partitions and offer them to the operating system as new devices. For its operation, it assigns the disks to one or more physical volumes that must be partitioned as LVM type. LVM storage volumes have the ability to be resized and transported depending on user needs and using up-to-date appliance tools.
+
+### Advantages of LVM 
+- __restrictions of physical devices are eliminated__. 
+- Performs __Snapshots__ that allow the current state of a logical volume to be stored and make a backup copy of the file system. And it's also fault tolerant, so a drive is easily replaceable, should it ever fail.
 
 ### Check all sudo logs
 The `sudologs file is in `var/log/sudo/sudo.log`
