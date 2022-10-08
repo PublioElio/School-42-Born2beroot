@@ -211,23 +211,19 @@ __Check SSH config file__
 ```
 $ sudo cat /etc/ssh/sshd_config
 ```
-
-
-
-
-
-
-
-### Check PHP version
-```
-$ php -v
-```
 ### Check lighttpd 
 ```
 $ sudo systemctl status lighttpd
 ```
 To check that lightspeed is working: in a browser on the host machine, connect to the following address and port: : [http://127.0.0.1:8080](http://127.0.0.1:8080)
 Now, check that PHP is correctly installed: [http://127.0.0.1:8080/info.php](http://127.0.0.1:8080/info.php)
+
+
+### Check PHP version
+```
+$ php -v
+```
+
 
 ### Check VM status
 ```
