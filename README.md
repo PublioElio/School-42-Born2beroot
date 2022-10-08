@@ -80,6 +80,10 @@ __Check if an user is in a group__
 ```
 $ getent group <groupname>
 ```
+__List all groups and users__
+```
+$ getent group
+```
 ### Check partitions during evaluation
 ```
 $ lsblk
