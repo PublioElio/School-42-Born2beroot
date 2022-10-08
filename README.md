@@ -146,7 +146,10 @@ __Create a new group__
 ```
 $ groupadd <groupname>
 ```
-
+__Check the hostname__
+```
+$ hostnamectl
+```
 ### Check partitions during evaluation
 ```
 $ lsblk
