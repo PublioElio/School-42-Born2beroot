@@ -211,19 +211,24 @@ __Check SSH config file__
 ```
 $ sudo cat /etc/ssh/sshd_config
 ```
-### Check lighttpd 
+## Lightttpd
+__Check lighttpd__ 
 ```
 $ sudo systemctl status lighttpd
 ```
-To check that lightspeed is working: in a browser on the host machine, connect to the following address and port: : [http://127.0.0.1:8080](http://127.0.0.1:8080)
+To check that lightspeed is working: in a browser on the host machine, connect to the following address and port: : [http://127.0.0.1:8080](http://127.0.0.1:8080).
+
 Now, check that PHP is correctly installed: [http://127.0.0.1:8080/info.php](http://127.0.0.1:8080/info.php)
-
-
 ### Check PHP version
 ```
 $ php -v
 ```
-
+## Fail2ban
+Fail2ban is a program that analyses server logs to identify and ban suspicious IP addresses. If it finds multiple failed login attempts or automated attacks from an IP address, it can block it with the firewall, either temporarily or permanently.
+__Check Fail2ban__
+```
+$ sudo systemctl status fail2ban
+```
 
 ### Check VM status
 ```
