@@ -51,15 +51,6 @@ AppArmor es un __módulo de seguridad__ del kernel Linux que permite al administ
 ## UFW(*Uncomplicated Firewall*)
 UFW es un cortafuegos que destaca por su simplicidad desarrollado por Ubuntu. Utiliza la línea de comandos para configurar las iptables usando un pequeño número de comandos simples. UFW está escrito en python y es un programa para GNU/Linux.
 
-## SSH (*Secure SHell*)
-SSH, o intérprete de comandos seguro, es el nombre de un protocolo y el programa que lo implementa, cuya principal función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada. Es un protocolo que facilita las __comunicaciones seguras entre dos sistemas__ usando una arquitectura __cliente/servidor__ y que permite a los usuarios conectarse a un host __remotamente__. A diferencia de otros protocolos de comunicación remota tales como FTP o Telnet, SSH __encripta__ la sesión de conexión, haciendo imposible que alguien pueda obtener contraseñas no encriptadas.
-
-Accediendo a un servidor remoto a través del protocolo SSH los riesgos de seguridad se reducen considerablemente. Tanto en el caso del cliente como del propio sistema la seguridad se mejora gracias a la encriptación; Secure SHell se encarga de encriptar todas las sesiones. Así, resulta imposible que alguien pueda acceder a las contraseñas, los datos de acceso del cliente o a lo que éste haya escrito.
-
-__Check SSH status via `sudo service ssh status`__
-```
-$ sudo service ssh status
-```
 __Check UFW status via `sudo ufw status`__
 ```
 $ sudo ufw status verbose
@@ -151,6 +142,7 @@ __Check the hostname__
 $ hostnamectl
 ```
 __Change the hostname__
+After change the hostname is necessary to reboot the machine to see the changes.
 ```
 $ sudo nano /etc/hostname
 ```
@@ -161,6 +153,11 @@ $ sudo hostnamectl set-hostname <new_hostname>
 __Then, reboot the machine__
 ```
 $ reboot
+```
+__Change from user to root user__
+Remember to use the __root password__!
+```
+$ sudo su
 ```
 __Check partitions during evaluation__
 ```
@@ -197,20 +194,29 @@ __Check the crontab jobs__
 ```
 $ sudo cat /var/spool/cron/crontabs/adiaz-be
 ```
+## SSH (*Secure SHell*)
+SSH, o intérprete de comandos seguro, es el nombre de un protocolo y el programa que lo implementa, cuya principal función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada. Es un protocolo que facilita las __comunicaciones seguras entre dos sistemas__ usando una arquitectura __cliente/servidor__ y que permite a los usuarios conectarse a un host __remotamente__. A diferencia de otros protocolos de comunicación remota tales como FTP o Telnet, SSH __encripta__ la sesión de conexión, haciendo imposible que alguien pueda obtener contraseñas no encriptadas.
 
-
-
-
-__Change to root user__
-```
-$ sudo su
-```
-
-
-### Connect the VM via SSH
+Accediendo a un servidor remoto a través del protocolo SSH los riesgos de seguridad se reducen considerablemente. Tanto en el caso del cliente como del propio sistema la seguridad se mejora gracias a la encriptación; Secure SHell se encarga de encriptar todas las sesiones. Así, resulta imposible que alguien pueda acceder a las contraseñas, los datos de acceso del cliente o a lo que éste haya escrito.
+__Connect the VM via SSH__
 ```
 $ ssh adiaz-be@localhost -p 4242
 ```
+__Check SSH status via `sudo service ssh status`__
+```
+$ sudo service ssh status
+```
+__Check SSH config file__
+```
+$ sudo cat /etc/ssh/sshd_config
+```
+
+
+
+
+
+
+
 ### Check PHP version
 ```
 $ php -v
