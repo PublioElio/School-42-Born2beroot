@@ -88,6 +88,18 @@ __List all groups and users__
 ```
 $ getent group
 ```
+### Password policy
+- Passwords have to expire every 30 days.
+- 2 must be the minimum number of days before being allowed to change a password.
+- The user must receive a warning message 7 days before their password expires.
+- A password must be at least 10 characters long.
+- It must contain an uppercase letter and a number. Also, it must not contain more than 3 consecutive identical characters.
+- The password must not include the name of the user.
+- The following rule does not apply to the root password: The password must have at least 7 characters that are not part of the former password.
+
+
+
+
 ### Check partitions during evaluation
 ```
 $ lsblk
@@ -99,14 +111,7 @@ The `sudologs file is in `var/log/sudo/sudo.log`
 $ sudo cat /var/log/sudo/sudo.log
 ```
 
-### Password policy
-- Passwords have to expire every 30 days.
-- 2 must be the minimum number of days before being allowed to change a password.
-- The user must receive a warning message 7 days before their password expires.
-- A password must be at least 10 characters long.
-- It must contain an uppercase letter and a number. Also, it must not contain more than 3 consecutive identical characters.
-- The password must not include the name of the user.
-- The following rule does not apply to the root password: The password must have at least 7 characters that are not part of the former password.
+
 
 #### Change password
 ```
