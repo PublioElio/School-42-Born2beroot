@@ -200,6 +200,13 @@ $ sudo cat /var/spool/cron/crontabs/adiaz-be
 
 
 
+
+__Change to root user__
+```
+$ sudo su
+```
+
+
 ### Connect the VM via SSH
 ```
 $ ssh adiaz-be@localhost -p 4242
