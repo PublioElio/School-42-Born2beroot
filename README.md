@@ -115,7 +115,7 @@ This are the values that need to be modified in the configuration file:
 ```
 # Number of characters in the new password that must not be present in the old password.
 difok = 7
-# The minimum acceptable size for the new password (plus one if credits are not disabled which is the default)
+# The minimum acceptable size for the new password (plus one if credits are not disabled which is the default).
 minlen = 10
 # The maximum credit for having digits in the new password. If less than 0 it is the minimun number of digits in the new password.
 dcredit = -1
@@ -130,7 +130,18 @@ retry = 3
 # Enforces pwquality checks on the root user password. Enabled if the option is present.
 enforce_for_root
 ```
-
+__Add a new user__
+```
+$ sudo useradd <username>
+```
+__List users__
+```
+$ less /etc/passwd
+```
+__Create user login password__
+```
+$ sudo passwd <username>
+```
 ### Check partitions during evaluation
 ```
 $ lsblk
