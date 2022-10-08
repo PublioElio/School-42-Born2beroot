@@ -11,7 +11,7 @@ The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the
 - Handle potential malware safely
 - Clone a system to another machine
 
-## APT y `aptitude`
+## APT and `aptitude`
 Both are related to package management. They are used for package search, removal, and installation, but have different approaches.
 
 ### APT *(Advanced Packaging Tool)*
@@ -19,20 +19,26 @@ APT is an open source tool created for the __Debian__ project. APT is designed t
 
 APT searchs in a list of cached packages and shows the dependencies that need to be __installed or updated__. APT automatically downloads, configures, and installs dependencies.
 
-#### Actualización de paquetes con APT
+#### Updating packages with APT
 
-La actualización de paquetes instalados incluyen:
+Update installed packages includes:
 
-- `update` se utiliza para __sincronizar__ los archivos desde sus fuentes.
-- `upgrade` se usa para __instalar__ las versiones más recientes de todos los paquetes actualmente instalados en el sistema desde las fuentes enumeradas en `/etc/apt/sources.list.` Los paquetes instalados con nuevas versiones disponibles __se recuperan y actualizan__; bajo ninguna circunstancia se eliminan los paquetes instalados, o se recuperan e instalan los paquetes que aún no están instalados. Las nuevas versiones que no se pueden actualizar sin cambiar el estado de paquete se mantendrán en su versión actual.
-- `full-upgrade` (`apt`) y `dist-upgrade` (`apt-get`), además de actualización, también maneja de manera inteligente las dependencias cambiantes con nuevas versiones de paquetes; `apt` y `apt-get` tienen un sistema de __resolución de conflictos inteligente__ e intentarán actualizar los paquetes más importantes a expensas de los menos importantes si es necesario. El archivo `/etc/apt/sources.list` contiene una lista de ubicaciones desde las que recuperar los archivos de paquetes deseados. __`aptitude`__ tiene una función de actualización de `dist-upgrade` más inteligente llamada `full-upgrade`.
+- `update` is used to __sync__ files from their sources.
+- `upgrade` is used to __install__ the latest versions of all packages currently installed on the system from the sources listed in `/etc/apt/sources.list`. Installed packages with new versions available are __downloaded and updated__; under no circumstances installed packages are removed, or packages that are not yet installed are downloaded and installed. New versions that cannot be updated without changing the package state will remain at their current version.
+- `full-upgrade` (`apt`) y `dist-upgrade` (`apt-get`), in addition to updating, also handles changing dependencies with new package versions; apt and `apt-get` have __smart conflict resolution system__ and will try to update more important packages at the expense of less important ones if necessary. The `/etc/apt/sources.list` file contains a list of locations from which to download the desired package files. `aptitude` has a smarter dist-upgrade function called `full-upgrade`.
 
 ### aptitude 
-`aptitude` es una interfaz para APT. Muestra una lista de paquetes de software y permite al usuario elegir de modo __interactivo__ cuáles desea instalar o eliminar. Dispone de un sistema de búsqueda que utiliza patrones flexibles, que facilitan al usuario entender las complejas relaciones de dependencia que puedan existir entre los paquetes. En un principio, se diseñó para distribuciones __GNU/Linux Debian__, pero hoy día también se puede utilizar en distribuciones basadas en paquetes __RPM__.
+`aptitude` is an interface to APT. Displays a list of software packages and allows the user to __interactively__ choose which ones to install or remove. It has a search system that uses flexible patterns, which make it easy for the user to understand the complex dependency relationships that may exist between packages. Originally it was designed for __GNU/Linux Debian__ distributions, but nowadays it can also be used in distributions based on __RPM__ packages.
 
-Necesita tres puntos indispensables: **usuario, puerto y servidor**.
+You need three essential points: **user, port and server**.
 
-Para utilizar `aptitude` por terminal de comandos, al igual que `apt-get`, hay que estar logueados como super-usuario (root) o utilizar el comando `sudo`. En [este enlace](https://wiki.debian.org/Aptitude) hay una lista de los comandos comunes de `aptitude`.
+To use `aptitude` by command terminal, like `apt-get`, you must be logged in as super-user (root) or use the `sudo` command. In [this link](https://wiki.debian.org/Aptitude) you can find list of common aptitude commands.
+
+#### Differences between `aptitude` and APT
+
+The main difference is that __aptitude is a high-level package manager while APT is lower-level package manager__ which can be used by other higher-level package managers, other main highlights that separate these two package managers are:
+
+Aptitude is vaster in functionality than `apt-get` and integrates functionalities of `apt-get` and its other variants including `apt-mark` and `apt-cache`. While `apt-get` handles all the package installation, up-gradation, system-upgradation, purging package, resolving dependencies etc., Aptitude handles lot more stuff than APT, including functionalities of `apt-mark` and `apt-cache` i.e. searching for a package in list of installed packages, marking a package to be automatically or manually installed, holding a package making it unavailable for up-gradation and so on. [(source)](https://www.tecmint.com/difference-between-apt-and-aptitude/)
 
 ## SELinux y AppArmor
 
