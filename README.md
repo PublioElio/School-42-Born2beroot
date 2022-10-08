@@ -48,14 +48,26 @@ SELinux es una __arquitectura de seguridad__ para los sistemas Linux que permite
 ### AppArmor (*Application Armor*)
 AppArmor es un __módulo de seguridad__ del kernel Linux que permite al administrador del sistema __restringir las capacidades de un programa__.
 
+## UFW(*Uncomplicated Firewall*)
+UFW es un cortafuegos que destaca por su simplicidad desarrollado por Ubuntu. Utiliza la línea de comandos para configurar las iptables usando un pequeño número de comandos simples. UFW está escrito en python y es un programa para GNU/Linux.
+
 ## SSH (*Secure SHell*)
 SSH, o intérprete de comandos seguro, es el nombre de un protocolo y el programa que lo implementa, cuya principal función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada. Es un protocolo que facilita las __comunicaciones seguras entre dos sistemas__ usando una arquitectura __cliente/servidor__ y que permite a los usuarios conectarse a un host __remotamente__. A diferencia de otros protocolos de comunicación remota tales como FTP o Telnet, SSH __encripta__ la sesión de conexión, haciendo imposible que alguien pueda obtener contraseñas no encriptadas.
 
 Accediendo a un servidor remoto a través del protocolo SSH los riesgos de seguridad se reducen considerablemente. Tanto en el caso del cliente como del propio sistema la seguridad se mejora gracias a la encriptación; Secure SHell se encarga de encriptar todas las sesiones. Así, resulta imposible que alguien pueda acceder a las contraseñas, los datos de acceso del cliente o a lo que éste haya escrito.
 
-## UFW(*Uncomplicated Firewall*)
-UFW es un cortafuegos que destaca por su simplicidad desarrollado por Ubuntu. Utiliza la línea de comandos para configurar las iptables usando un pequeño número de comandos simples. UFW está escrito en python y es un programa para GNU/Linux.
-
+### Check SSH status via `sudo service ssh status`
+```
+$ sudo service ssh status
+```
+### Check UFW status via sudo ufw status`
+```
+$ sudo ufw status verbose
+```
+### Check AppArmor status
+```
+$ sudo aa-status
+```
 ### Check partitions during evaluation
 ```
 $ lsblk
@@ -73,18 +85,7 @@ The `sudologs file is in `var/log/sudo/sudo.log`
 ```
 $ sudo cat /var/log/sudo/sudo.log
 ```
-### Check SSH status via `sudo service ssh status`
-```
-$ sudo service ssh status
-```
-### Check UFW status via sudo ufw status`
-```
-$ sudo ufw status verbose
-```
-### Check AppArmor status
-```
-$ sudo aa-status
-```
+
 ### Password policy
 - Passwords have to expire every 30 days.
 - 2 must be the minimum number of days before being allowed to change a password.
