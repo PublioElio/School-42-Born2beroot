@@ -56,17 +56,21 @@ SSH, o intérprete de comandos seguro, es el nombre de un protocolo y el program
 
 Accediendo a un servidor remoto a través del protocolo SSH los riesgos de seguridad se reducen considerablemente. Tanto en el caso del cliente como del propio sistema la seguridad se mejora gracias a la encriptación; Secure SHell se encarga de encriptar todas las sesiones. Así, resulta imposible que alguien pueda acceder a las contraseñas, los datos de acceso del cliente o a lo que éste haya escrito.
 
-### Check SSH status via `sudo service ssh status`
+__Check SSH status via `sudo service ssh status`__
 ```
 $ sudo service ssh status
 ```
-### Check UFW status via `sudo ufw status`
+__Check UFW status via `sudo ufw status`__
 ```
 $ sudo ufw status verbose
 ```
-### Check AppArmor status
+__Check AppArmor status__
 ```
 $ sudo aa-status
+```
+__Check OS (Operating System)__
+```
+$ lsb_release -a
 ```
 ### Check partitions during evaluation
 ```
