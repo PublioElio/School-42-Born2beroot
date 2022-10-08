@@ -154,6 +154,10 @@ __Change the hostname__
 ```
 $ sudo nano /etc/hostname
 ```
+Another way of doing this is:
+```
+$ sudo hostnamectl set-hostname <new_hostname>
+```
 __Then, reboot the machine__
 ```
 $ reboot
@@ -178,16 +182,21 @@ __Check `monitoring.sh` (Cron service archives)__
 ```
 $ sudo cat /root/monitoring.sh
 ```
-__Check the archive to timing the messages in console:
+__Check `sleep.sh` (create a sleep delay)__
 ```
 $ sudo cat /root/sleep.sh
 ```
+__Check the Cron service__
+```
+$ crontab -e
+```
+__Check the crontab jobs__
+```
+$ sudo cat /var/spool/cron/crontabs/adiaz-be
+```
 
-### Changing the Hostname
-The hostname of our virtual machine must be our intra __login + 42__. Whether we correctly named it during the installation or not, we will have to change it during the evaluation. So we must know how. The following command will do the trick:
-```
-$ sudo hostnamectl set-hostname <new_hostname>
-```
+
+
 We could also change the hostname by editing the `/etc/hostname` file instead.
 
 For the changes to take effect, we must restart the machine, which may take some time. The alternative is simply to show the hostname status after the change:
