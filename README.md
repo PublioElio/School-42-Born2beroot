@@ -76,7 +76,7 @@ __Add user to a group__
 ```
 $ adduser <username> <group>
 ```
-### Check if an user is in a group
+__Check if an user is in a group__
 ```
 $ getent group <groupname>
 ```
