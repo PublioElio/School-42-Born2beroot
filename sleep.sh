@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 BOOT_MIN=$(uptime -s | cut -d ":" -f 2)
 BOOT_SEC=$(uptime -s | cut -d ":" -f 3)
