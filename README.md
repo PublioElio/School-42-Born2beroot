@@ -142,6 +142,11 @@ __Create user login password__
 ```
 $ sudo passwd <username>
 ```
+__Create a new group__
+```
+$ groupadd <groupname>
+```
+
 ### Check partitions during evaluation
 ```
 $ lsblk
