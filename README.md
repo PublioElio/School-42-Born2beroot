@@ -80,6 +80,10 @@ __Check if an user is in a group__
 ```
 $ getent group <groupname>
 ```
+__Get all groups of an user__
+```
+$ id -Gn userName
+```
 __List all groups and users__
 ```
 $ getent group
