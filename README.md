@@ -101,11 +101,15 @@ __Check password rules__
 ```
 $ sudo cat /etc/login.defs
 ```
-Those three values are changed in the `login.defs` document, the *Password aging controls* section:
+This three values are changed in the `login.defs` document, the *Password aging controls* section:
 ```
 PASS_MAX_DAYS 30
 PASS_MIN_DAYS 2
 PASS_WARN_AGE 7
+```
+Now, we have to check the `/etc/security/pwquality.conf` configuration file. :
+```
+$ sudo cat /etc/security/pwquality.conf
 ```
 
 ### Check partitions during evaluation
