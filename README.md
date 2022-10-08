@@ -97,8 +97,16 @@ $ getent group
 - The password must not include the name of the user.
 - The following rule does not apply to the root password: The password must have at least 7 characters that are not part of the former password.
 
-
-
+__Check password rules__
+```
+$ sudo cat /etc/login.defs
+```
+Those three values are changed in the `login.defs` document, the *Password aging controls* section:
+```
+PASS_MAX_DAYS 30
+PASS_MIN_DAYS 2
+PASS_WARN_AGE 7
+```
 
 ### Check partitions during evaluation
 ```
