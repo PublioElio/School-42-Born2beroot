@@ -72,18 +72,19 @@ __Check OS (Operating System)__
 ```
 $ lsb_release -a
 ```
+__Add user to a group__
+```
+$ adduser <username> <group>
+```
+### Check if an user is in a group
+```
+$ getent group <groupname>
+```
 ### Check partitions during evaluation
 ```
 $ lsblk
 ```
-### Add user to sudo group
-```
-$ adduser <username> sudo
-```
-### Check if an user is in a group
-```
-$ getent group sudo
-```
+
 ### Check all sudo logs
 The `sudologs file is in `var/log/sudo/sudo.log`
 ```
