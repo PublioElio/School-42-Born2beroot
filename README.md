@@ -74,7 +74,7 @@ $ lsb_release -a
 ```
 __Add user to a group__
 ```
-$ adduser <username> <group>
+$ sudo adduser <username> <group>
 ```
 __Check if an user is in a group__
 ```
