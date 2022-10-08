@@ -158,8 +158,7 @@ __Then, reboot the machine__
 ```
 $ reboot
 ```
-
-### Check partitions during evaluation
+__Check partitions during evaluation__
 ```
 $ lsblk
 ```
