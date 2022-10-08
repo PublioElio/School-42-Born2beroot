@@ -150,6 +150,15 @@ __Check the hostname__
 ```
 $ hostnamectl
 ```
+__Change the hostname__
+```
+$ sudo nano /etc/hostname
+```
+__Then, reboot the machine__
+```
+$ reboot
+```
+
 ### Check partitions during evaluation
 ```
 $ lsblk
