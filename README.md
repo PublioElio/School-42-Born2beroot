@@ -60,7 +60,7 @@ Accediendo a un servidor remoto a través del protocolo SSH los riesgos de segur
 ```
 $ sudo service ssh status
 ```
-### Check UFW status via sudo ufw status`
+### Check UFW status via `sudo ufw status`
 ```
 $ sudo ufw status verbose
 ```
