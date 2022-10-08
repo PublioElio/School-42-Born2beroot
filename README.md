@@ -169,23 +169,16 @@ LVM is a software that allows the implementation of RAID *(Redundant Array of In
 - __restrictions of physical devices are eliminated__. 
 - Performs __Snapshots__ that allow the current state of a logical volume to be stored and make a backup copy of the file system. And it's also fault tolerant, so a drive is easily replaceable, should it ever fail.
 
-### Check all sudo logs
-The `sudologs file is in `var/log/sudo/sudo.log`
+__Check all sudo logs__
+The file is in `var/log/sudo/sudo.log`
 ```
 $ sudo cat /var/log/sudo/sudo.log
 ```
-
-
-
-#### Change password
-```
-$ sudo passwd <user/root>
-```
-### Check monitoring / Cron service archives
+__Check `monitoring.sh` (Cron service archives)__
 ```
 $ sudo cat /root/monitoring.sh
 ```
-Check the archive to timing the messages in console:
+__Check the archive to timing the messages in console:
 ```
 $ sudo cat /root/sleep.sh
 ```
