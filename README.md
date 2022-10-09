@@ -236,7 +236,7 @@ $ sudo systemctl status fail2ban
 
 __Get VM disk ID__
 ```
-$ shasum /sgoinfre/goinfre/Perso/adiaz-be/born2beroot.vdi
+$ shasum <path-to-.vdi>
 ```
 
 ## User Management
