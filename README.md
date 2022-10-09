@@ -194,6 +194,10 @@ __Check the crontab jobs__
 ```
 $ sudo cat /var/spool/cron/crontabs/adiaz-be
 ```
+__Disable Cron service__
+```
+$ sudo systemctl disable cron
+```
 ## SSH (*Secure SHell*)
 SSH, o intérprete de comandos seguro, es el nombre de un protocolo y el programa que lo implementa, cuya principal función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada. Es un protocolo que facilita las __comunicaciones seguras entre dos sistemas__ usando una arquitectura __cliente/servidor__ y que permite a los usuarios conectarse a un host __remotamente__. A diferencia de otros protocolos de comunicación remota tales como FTP o Telnet, SSH __encripta__ la sesión de conexión, haciendo imposible que alguien pueda obtener contraseñas no encriptadas.
 
