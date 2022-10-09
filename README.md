@@ -230,9 +230,9 @@ __Check Fail2ban__
 $ sudo systemctl status fail2ban
 ```
 
-### Check VM status
+__Get VM disk ID__
 ```
-$ shasum 2022-10-08T12-09-27-035734000Z.sav
+$ shasum /sgoinfre/goinfre/Perso/adiaz-be/born2beroot.vdi
 ```
 
 ## User Management
