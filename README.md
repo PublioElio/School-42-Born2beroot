@@ -249,6 +249,7 @@ $ sudo cat /etc/ssh/sshd_config
 ```
 ## Lightttpd
 __Lighttpd__ (pronounced *'lighty'*) is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible.
+
 __Check lighttpd__ 
 ```
 $ sudo systemctl status lighttpd
