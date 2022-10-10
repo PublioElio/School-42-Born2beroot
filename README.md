@@ -142,7 +142,9 @@ __Check the hostname__
 $ hostnamectl
 ```
 __Change the hostname__
-After change the hostname is necessary to reboot the machine to see the changes.
+
+After modifying the hostname is necessary to reboot the machine to see the changes.
+
 ```
 $ sudo nano /etc/hostname
 ```
