@@ -1,5 +1,5 @@
 # School 42 Born2beRoot
-This is a repository to prepare the defense of the __School 42__ project __Born2beroot__.
+This is a repository to prepare the evaluation of the __School 42__ project __Born2beRoot__.
 For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
 ## Why a virtual machine(VM)?
@@ -220,15 +220,15 @@ __Check lighttpd__
 ```
 $ sudo systemctl status lighttpd
 ```
-To check that lightspeed is working: in a browser on the host machine, connect to the following address and port: : [http://127.0.0.1:8080](http://127.0.0.1:8080).
+To check that lightspeed is working: in a browser on the host machine, connect to the following address and port (login into Wordpress): : [http://127.0.0.1:8080](http://127.0.0.1:8080).
 
-Now, check that PHP is correctly installed: [http://127.0.0.1:8080/info.php](http://127.0.0.1:8080/info.php)
+Now, check that PHP is correctly installedx: [http://127.0.0.1:8080/info.php](http://127.0.0.1:8080/info.php)
 ### Check PHP version
 ```
 $ php -v
 ```
 ## Fail2ban
-Fail2ban is a program that analyses server logs to identify and ban suspicious IP addresses. If it finds multiple failed login attempts or automated attacks from an IP address, it can block it with the firewall, either temporarily or permanently.
+__Fail2ban__ is a program that analyses server logs to identify and ban __suspicious IP addresses__. If it finds multiple failed login attempts or automated attacks from an IP address, it can block it with the firewall, either temporarily or permanently.
 __Check Fail2ban__
 ```
 $ sudo systemctl status fail2ban
