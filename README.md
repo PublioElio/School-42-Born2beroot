@@ -211,17 +211,6 @@ $ sudo cat /var/log/sudo/sudo.log
 ## Cron
 Cron (or crontab, short for chrono table) is a program that enables the execution of scripts or software in an automatic way, at a certain date and time or at a specified interval. It is installed by default in Debian (we can check this with the `apt list cron command`). To test and understand the Cron service, you can use [this page](https://crontab.guru/#*_*_*_*_*).
 
-### `monitoring.sh` and `sleep.sh`
-`monitoring.sh` is a script that displays a message on the terminals of all logged-in users. It searchs for certain values and saves them on variables to print on screen. `sleep.sh`calculates the amount of time that the virtual machine has been turned on to print the `monitoring.sh` message on the screen every ten minutes since the system was started.
-
-__Check `monitoring.sh` (Cron service archives)__
-```
-$ sudo cat /root/monitoring.sh
-```
-__Check `sleep.sh` (create a sleep delay)__
-```
-$ sudo cat /root/sleep.sh
-```
 __Check the Cron service__
 ```
 $ crontab -e
@@ -233,6 +222,17 @@ $ sudo cat /var/spool/cron/crontabs/<username/root>
 __Disable Cron service__
 ```
 $ sudo systemctl disable cron
+```
+### `monitoring.sh` and `sleep.sh`
+`monitoring.sh` is a script that displays a message on the terminals of all logged-in users. It searchs for certain values and saves them on variables to print on screen. `sleep.sh`calculates the amount of time that the virtual machine has been turned on to print the `monitoring.sh` message on the screen every ten minutes since the system was started.
+
+__Check `monitoring.sh` (Cron service archives)__
+```
+$ sudo cat /root/monitoring.sh
+```
+__Check `sleep.sh` (create a sleep delay)__
+```
+$ sudo cat /root/sleep.sh
 ```
 ## SSH (*Secure SHell*)
 SSH is the name of a protocol and the program that implements it, whose main function is __remote access to a server through a secure channel__ in which __all information is encrypted__. It is a protocol that allows secure communications between two systems using a __client/server architecture__ and authorizes users to connect to a host remotely. Unlike other remote communication protocols such as FTP or Telnet, SSH encrypts the connection session, making it impossible for anyone to obtain unencrypted passwords.
