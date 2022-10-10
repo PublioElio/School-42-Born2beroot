@@ -13,18 +13,19 @@ For more details about this project, read the [subject](https://github.com/Publi
 
 ## Table of contens
 1. [Why a virtual machine(VM)?](#why-a-virtual-machine-vm)
-2. [APT and aptitude](#apt-and-aptitude)
+2. [Differences between CENTOS and Debian](#differences-between-centos-and-debian)
+3. [APT and aptitude](#apt-and-aptitude)
     - [APT *(Advanced Packaging Tool)*](#apt-advanced-packaging-tool)
         - [Updating packages with APT](#updating-packages-with-apt)
     - [aptitude](#aptitude)
         - [Differences between aptitude and APT](#differences-between-aptitude-and-apt)  
-3. [SELinux y AppArmor](#selinux-y-apparmor)
+4. [SELinux y AppArmor](#selinux-y-apparmor)
     - [SSELinux (*Security-Enhanced Linux*)](#selinux-security-enhanced-linux)
     - [AppArmor (*Application Armor*)](#apparmor-application-armor)
        - [Password Strength](#password-strength)
-4. [UFW(*Uncomplicated Firewall*)](#ufw-uncomplicated-firewall)
-5. [Password policy](#password-policy)
-6. [LVM *(Logical Volume Manager)*](#lvm-Logical-volume-manager)
+5. [UFW(*Uncomplicated Firewall*)](#ufw-uncomplicated-firewall)
+6. [Password policy](#password-policy)
+7. [LVM *(Logical Volume Manager)*](#lvm-Logical-volume-manager)
     - [Advantages of LVM](#advantages-of-lvm)
 9. [Cron](#cron)
 10. [Lightttpd](#lightttpd)
@@ -38,6 +39,10 @@ The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the
 - Develop software for other platforms
 - Handle potential malware safely
 - Clone a system to another machine
+
+## Differences between CENTOS and Debian
+
+![differences between CENTOS and DEBIAN](https://github.com/PublioElio/School-42-Born2beroot/blob/main/CENTOS_vs_DEBIAN.png)
 
 ## APT and `aptitude`
 Both are related to package management. They are used for package search, removal, and installation, but have different approaches.
