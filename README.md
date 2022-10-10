@@ -28,9 +28,9 @@ For more details about this project, read the [subject](https://github.com/Publi
 7. [LVM *(Logical Volume Manager)*](#lvm-Logical-volume-manager)
     - [Advantages of LVM](#advantages-of-lvm)
 9. [Cron](#cron)
-10. [monitoring.sh and sleep.sh](#monitoring.sh-and-sleep.sh)
-11. [Lightttpd](#lightttpd)
-12. [Fail2ban](#fail2ban)
+    - [monitoring.sh and sleep.sh](#monitoring-sh-and-sleep-sh)
+10. [Lightttpd](#lightttpd)
+11. [Fail2ban](#fail2ban)
 
 ## Why a virtual machine(VM)?
 The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the same time, on the same machine. Companies that use many applications must use different configurations of hardware, which has a high maintenance cost, in addition to taking up physical space. VMs are the answer to this and other problems, because it's like emulating an OS. This is a list of the most common reasons to install a VM:
