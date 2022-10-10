@@ -12,7 +12,7 @@ All the contents of this `REAMDME.md` are listed to help during the evaluation o
 For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
 ## Table of contens
-1. [Why a virtual machine(VM)?](#why-a-virtual-machine-vm)
+1. [Why a virtual machine(VM)?](#why-a-virtual-machine-vm-computer)
 2. [APT and aptitude](#apt-and-aptitude)
     - [APT *(Advanced Packaging Tool)*](#apt-advanced-packaging-tool)
         - [Updating packages with APT](#updating-packages-with-apt)
@@ -30,7 +30,7 @@ For more details about this project, read the [subject](https://github.com/Publi
 10. [Lightttpd](#lightttpd)
 11. [Fail2ban](#fail2ban)
 
-## Why a virtual machine(VM)?
+## Why a virtual machine(VM)?:computer:
 The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the same time, on the same machine. Companies that use many applications must use different configurations of hardware, which has a high maintenance cost, in addition to taking up physical space. VMs are the answer to this and other problems, because it's like emulating an OS. This is a list of the most common reasons to install a VM:
 
 - Test software for a different OS
