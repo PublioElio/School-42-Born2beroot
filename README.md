@@ -247,6 +247,7 @@ $ sudo systemctl status lighttpd
 To check that lightspeed is working: in a browser on the host machine, connect to the following address and port (login into Wordpress): [http://127.0.0.1:8080](http://127.0.0.1:8080).
 
 Now, check that PHP is correctly installedx: [http://127.0.0.1:8080/info.php](http://127.0.0.1:8080/info.php)
+
 __Check PHP version__
 ```
 $ php -v
