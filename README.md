@@ -236,30 +236,7 @@ __Check Fail2ban__
 ```
 $ sudo systemctl status fail2ban
 ```
-
 __Get VM disk ID__
 ```
 $ shasum <path-to.vdi>
 ```
-
-## User Management
-At startup, there must be at least two users: root and a personal user with our intra login as a username. For the evaluation, we must also be able to show a list of all users, add or delete user accounts, change their usernames, add or remove them from groups, etc. The following commands are necessary to do all of that:
-
-- `useradd` : creates a new user.
-- `usermod` : changes the user’s parameters: -l for the username, -c for the full name, -g for groups by group ID.
-- `userdel -r` : deletes a user and all associated files.
-- `id -u` : displays user ID.
-- `users` : shows a list of all currently logged in users.
-- `cat /etc/passwd | cut -d ":" -f 1` : displays a list of all users on the machine.
-- `cat /etc/passwd | awk -F '{print $1}'` : same as above.
-
-## Group Management
-In the same way, we will have to manage user groups. Our default personal user must be in the `sudo` and `user42` groups. The following commands need to be mastered for the evaluation:
-
-- `groupadd`: creates a new group.
-- `gpasswd -a`: adds a user to a group.
-- `gpasswd -d`: removes a user from a group.
-- `groupdel`: deletes a group.
-- `groups`: displays the groups of a user.
-- `id -g`: shows a user’s main group ID.
-- `getent group`: displays a list of all users in a group.
