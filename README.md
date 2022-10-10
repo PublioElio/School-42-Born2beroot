@@ -28,7 +28,7 @@ For more details about this project, read the [subject](https://github.com/Publi
 7. [LVM *(Logical Volume Manager)*](#lvm-Logical-volume-manager)
     - [Advantages of LVM](#advantages-of-lvm)
 9. [Cron](#cron)
-    - [monitoring.sh and sleep.sh](#monitoring-sh-and-sleep-sh)
+    - [monitoring.sh and sleep.sh](#monitoringsh-and-sleepsh)
 10. [Lightttpd](#lightttpd)
 11. [Fail2ban](#fail2ban)
 
