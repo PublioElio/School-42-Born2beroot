@@ -7,9 +7,9 @@ For more details about this project, read the [subject](https://github.com/Publi
 
 ## Table of contens
 1. [Why a virtual machine(VM)?](##Why-a-virtual-machine)
-3. [APT and `aptitude`](#APT-and-aptitude-)
-    - [Step 1: Installing & Configuring SSH](#step-1-installing--configuring-ssh)
-    - [Step 2: Installing & Configuring UFW](#step-2-installing--configuring-ufw)
+2. [APT and `aptitude`](##APT-and-aptitude-)
+    - [APT *(Advanced Packaging Tool)*](###APT-(Advanced Packaging Tool))
+        - [Updating packages with APT](####Updating-packages-with-APT)
     - [Step 3: Connecting to Server via SSH](#step-3-connecting-to-server-via-ssh)
 4. [User Management](#user-management)
     - [Step 1: Setting Up a Strong Password Policy](#step-1-setting-up-a-strong-password-policy)
