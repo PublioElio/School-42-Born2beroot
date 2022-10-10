@@ -12,7 +12,7 @@ All the contents of this `REAMDME.md` are listed to help during the evaluation o
 For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
 ## Table of contens
-1. [Why a virtual machine(VM)?](#why-a-virtual-machine-vm-?)
+1. [Why a virtual machine(VM)?](#why-a-virtual-machinevm)
 2. [Differences between CENTOS and Debian](#differences-between-centos-and-debian)
 3. [APT and aptitude](#apt-and-aptitude)
     - [APT *(Advanced Packaging Tool)*](#apt-advanced-packaging-tool)
