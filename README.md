@@ -7,8 +7,8 @@ For more details about this project, read the [subject](https://github.com/Publi
 
 ## Table of contens
 1. [Why a virtual machine(VM)?](##Why-a-virtual-machine)
-2. [APT and `aptitude`](##APT-and-aptitude-)
-    - [APT *(Advanced Packaging Tool)*](###APT-(Advanced Packaging Tool))
+2. [APT and aptitude](##APT-and-aptitude-)
+    - [APT *(Advanced Packaging Tool)*](###APT-(Advanced-Packaging-Tool))
         - [Updating packages with APT](####Updating-packages-with-APT)
     - [Step 3: Connecting to Server via SSH](#step-3-connecting-to-server-via-ssh)
 4. [User Management](#user-management)
