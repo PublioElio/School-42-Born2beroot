@@ -18,11 +18,12 @@ For more details about this project, read the [subject](https://github.com/Publi
     - [SSELinux (*Security-Enhanced Linux*)](#selinux-security-enhanced-linux)
     - [AppArmor (*Application Armor*)](#apparmor-application-armor)
        - [Password Strength](#password-strength)
-    - [Step 2: Creating a New User](#step-2-creating-a-new-user)
-    - [Step 3: Creating a New Group](#step-3-creating-a-new-group)
-5. [*cron*](#cron)
-    - [Setting Up a *cron* Job](#setting-up-a-cron-job)
-6. [Bonus](#bonus)
+4. [UFW(*Uncomplicated Firewall*)](#ufw-uncomplicated-firewall)
+5. [Password policy](#password-policy)
+6. [LVM *(Logical Volume Manager)*](#lvm-Logical-volume-manager)
+    - [Advantages of LVM](#advantages-of-lvm)
+9. [Cron](#cron)
+10. [Password policy](#password-policy)
     - [Installation](#1-installation)
     - [Linux Lighttpd MariaDB PHP *(LLMP)* Stack](#2-linux-lighttpd-mariadb-php-llmp-stack)
        - [Step 1: Installing Lighttpd](#step-1-installing-lighttpd)
@@ -108,7 +109,7 @@ __List all groups and users__
 ```
 $ getent group
 ```
-### Password policy
+## Password policy
 - Passwords have to expire every 30 days.
 - 2 must be the minimum number of days before being allowed to change a password.
 - The user must receive a warning message 7 days before their password expires.
