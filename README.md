@@ -23,17 +23,8 @@ For more details about this project, read the [subject](https://github.com/Publi
 6. [LVM *(Logical Volume Manager)*](#lvm-Logical-volume-manager)
     - [Advantages of LVM](#advantages-of-lvm)
 9. [Cron](#cron)
-10. [Password policy](#password-policy)
-    - [Installation](#1-installation)
-    - [Linux Lighttpd MariaDB PHP *(LLMP)* Stack](#2-linux-lighttpd-mariadb-php-llmp-stack)
-       - [Step 1: Installing Lighttpd](#step-1-installing-lighttpd)
-       - [Step 2: Installing & Configuring MariaDB](#step-2-installing--configuring-mariadb)
-       - [Step 3: Installing PHP](#step-3-installing-php)
-       - [Step 4: Downloading & Configuring WordPress](#step-4-downloading--configuring-wordpress)
-       - [Step 5: Configuring Lighttpd](#step-5-configuring-lighttpd)
-    - [File Transfer Protocol *(FTP)*](#3-file-transfer-protocol-ftp)
-       - [Step 1: Installing & Configuring FTP](#step-1-installing--configuring-ftp)
-       - [Step 2: Connecting to Server via FTP](#step-2-connecting-to-server-via-ftp)
+10. [Lightttpd](#lightttpd)
+11. [Fail2ban](#fail2ban)
 
 ## Why a virtual machine(VM)?
 The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the same time, on the same machine. Companies that use many applications must use different configurations of hardware, which has a high maintenance cost, in addition to taking up physical space. VMs are the answer to this and other problems, because it's like emulating an OS. This is a list of the most common reasons to install a VM:
@@ -231,9 +222,9 @@ __Disable Cron service__
 $ sudo systemctl disable cron
 ```
 ## SSH (*Secure SHell*)
-SSH, o intérprete de comandos seguro, es el nombre de un protocolo y el programa que lo implementa, cuya principal función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información está cifrada. Es un protocolo que facilita las __comunicaciones seguras entre dos sistemas__ usando una arquitectura __cliente/servidor__ y que permite a los usuarios conectarse a un host __remotamente__. A diferencia de otros protocolos de comunicación remota tales como FTP o Telnet, SSH __encripta__ la sesión de conexión, haciendo imposible que alguien pueda obtener contraseñas no encriptadas.
+SSH is the name of a protocol and the program that implements it, whose main function is __remote access to a server through a secure channel__ in which __all information is encrypted__. It is a protocol that allows secure communications between two systems using a __client/server architecture__ and authorizes users to connect to a host remotely. Unlike other remote communication protocols such as FTP or Telnet, SSH encrypts the connection session, making it impossible for anyone to obtain unencrypted passwords.
 
-Accediendo a un servidor remoto a través del protocolo SSH los riesgos de seguridad se reducen considerablemente. Tanto en el caso del cliente como del propio sistema la seguridad se mejora gracias a la encriptación; Secure SHell se encarga de encriptar todas las sesiones. Así, resulta imposible que alguien pueda acceder a las contraseñas, los datos de acceso del cliente o a lo que éste haya escrito.
+By accessing a remote server through the SSH protocol, security risks are considerably reduced. Both in the case of the client and the system itself, security is improved thanks to encryption; SSH takes care of encrypting all sessions. Thus, it is impossible for someone to access the passwords, the client's access data or what the client has written.
 
 __Connect the VM via SSH__
 ```
@@ -256,7 +247,7 @@ $ sudo systemctl status lighttpd
 To check that lightspeed is working: in a browser on the host machine, connect to the following address and port (login into Wordpress): [http://127.0.0.1:8080](http://127.0.0.1:8080).
 
 Now, check that PHP is correctly installedx: [http://127.0.0.1:8080/info.php](http://127.0.0.1:8080/info.php)
-### Check PHP version
+__Check PHP version__
 ```
 $ php -v
 ```
