@@ -8,11 +8,12 @@ All the contents of this `REAMDME.md` are listed to help during the evaluation o
 For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
 ## Table of contens
-1. [Why a virtual machine(VM)?](##Why-a-virtual-machine-VM)
-2. [APT and aptitude](##APT-and-aptitude)
-    - [APT *(Advanced Packaging Tool)*](###APT-Advanced-Packaging-Tool)
-        - [Updating packages with APT](####Updating-packages-with-APT)
-    - [Step 3: Connecting to Server via SSH](#step-3-connecting-to-server-via-ssh)
+1. [Why a virtual machine(VM)?](##why-a-virtual-machine-vm)
+2. [APT and aptitude](##apt-and-aptitude)
+    - [APT *(Advanced Packaging Tool)*](###apt-advanced-packaging-tool)
+        - [Updating packages with APT](####updating-packages-with-apt)
+    - [aptitude](###aptitude)
+        - [Differences between aptitude and APT](####differences-between-aptitude-and-apt)  
 4. [User Management](#user-management)
     - [Step 1: Setting Up a Strong Password Policy](#step-1-setting-up-a-strong-password-policy)
        - [Password Age](#password-age)
@@ -33,7 +34,7 @@ For more details about this project, read the [subject](https://github.com/Publi
        - [Step 1: Installing & Configuring FTP](#step-1-installing--configuring-ftp)
        - [Step 2: Connecting to Server via FTP](#step-2-connecting-to-server-via-ftp)
 
-##Why a virtual machine(VM)?
+## Why a virtual machine(VM)?
 The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the same time, on the same machine. Companies that use many applications must use different configurations of hardware, which has a high maintenance cost, in addition to taking up physical space. VMs are the answer to this and other problems, because it's like emulating an OS. This is a list of the most common reasons to install a VM:
 
 - Test software for a different OS
@@ -66,7 +67,6 @@ You need three essential points: **user, port and server**.
 To use `aptitude` by command terminal, like `apt-get`, you must be logged in as super-user (root) or use the `sudo` command. In [this link](https://wiki.debian.org/Aptitude) you can find list of common aptitude commands.
 
 #### Differences between `aptitude` and APT
-
 The main difference is that __aptitude is a high-level package manager while APT is lower-level package manager__ which can be used by other higher-level package managers, other main highlights that separate these two package managers are:
 
 Aptitude is vaster in functionality than `apt-get` and integrates functionalities of `apt-get` and its other variants including `apt-mark` and `apt-cache`. While `apt-get` handles all the package installation, up-gradation, system-upgradation, purging package, resolving dependencies etc., Aptitude handles lot more stuff than APT, including functionalities of `apt-mark` and `apt-cache` i.e. searching for a package in list of installed packages, marking a package to be automatically or manually installed, holding a package making it unavailable for up-gradation and so on. [(source)](https://www.tecmint.com/difference-between-apt-and-aptitude/)
