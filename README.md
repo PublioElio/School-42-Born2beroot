@@ -3,6 +3,8 @@
 > School 42 Málaga cursus project
 
 This is a repository to prepare the evaluation of the __School 42__ project __Born2beRoot__.
+All the contents of this `REAMDME.md` are listed to help during the evaluation of the project, with useful commands, code and the explanation of functionalities and tasks that will be tested.
+
 For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
 ## Table of contens
@@ -31,7 +33,7 @@ For more details about this project, read the [subject](https://github.com/Publi
        - [Step 1: Installing & Configuring FTP](#step-1-installing--configuring-ftp)
        - [Step 2: Connecting to Server via FTP](#step-2-connecting-to-server-via-ftp)
 
-## Why a virtual machine(VM)?
+##Why a virtual machine(VM)?
 The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the same time, on the same machine. Companies that use many applications must use different configurations of hardware, which has a high maintenance cost, in addition to taking up physical space. VMs are the answer to this and other problems, because it's like emulating an OS. This is a list of the most common reasons to install a VM:
 
 - Test software for a different OS
