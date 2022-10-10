@@ -6,12 +6,8 @@ This is a repository to prepare the evaluation of the __School 42__ project __Bo
 For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
 ## Table of contens
-1. [Why a virtual machine(VM)?](##Why-a-virtual-machine(VM)?)
-    - [Step 1: Installing *sudo*](#step-1-installing-sudo)
-    - [Step 2: Adding User to *sudo* Group](#step-2-adding-user-to-sudo-group)
-    - [Step 3: Running *root*-Privileged Commands](#step-3-running-root-privileged-commands)
-    - [Step 4: Configuring *sudo*](#step-4-configuring-sudo)
-3. [SSH](#ssh)
+1. [Why a virtual machine(VM)?](##Why-a-virtual-machine)
+3. [APT and `aptitude`](#APT-and-aptitude-)
     - [Step 1: Installing & Configuring SSH](#step-1-installing--configuring-ssh)
     - [Step 2: Installing & Configuring UFW](#step-2-installing--configuring-ufw)
     - [Step 3: Connecting to Server via SSH](#step-3-connecting-to-server-via-ssh)
