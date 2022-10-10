@@ -176,7 +176,7 @@ The file is in `var/log/sudo/sudo.log`
 $ sudo cat /var/log/sudo/sudo.log
 ```
 ## Cron
-Cron (or crontab, short for chrono table) is a program that enables the execution of scripts or software in an automatic way, at a certain date and time or at a specified interval. It is installed by default in Debian (we can check this with the `apt list cron command`). To check and explain the Cron service, you can use [this page](https://crontab.guru/#*_*_*_*_*).
+Cron (or crontab, short for chrono table) is a program that enables the execution of scripts or software in an automatic way, at a certain date and time or at a specified interval. It is installed by default in Debian (we can check this with the `apt list cron command`). To test and understand the Cron service, you can use [this page](https://crontab.guru/#*_*_*_*_*).
 
 __Check `monitoring.sh` (Cron service archives)__
 ```
@@ -192,7 +192,7 @@ $ crontab -e
 ```
 __Check the crontab jobs__
 ```
-$ sudo cat /var/spool/cron/crontabs/adiaz-be
+$ sudo cat /var/spool/cron/crontabs/<hostname/root>
 ```
 __Disable Cron service__
 ```
@@ -205,7 +205,7 @@ Accediendo a un servidor remoto a través del protocolo SSH los riesgos de segur
 
 __Connect the VM via SSH__
 ```
-$ ssh <user-login>@localhost -p 4242
+$ ssh <hostname>@localhost -p 4242
 ```
 __Check SSH status via `sudo service ssh status`__
 ```
