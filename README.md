@@ -43,7 +43,9 @@ The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the
 
 ## Differences between CENTOS and Debian
 
-![differences between CENTOS and DEBIAN](https://github.com/PublioElio/School-42-Born2beroot/blob/main/CENTOS_vs_DEBIAN.png)
+<div id="header" align="center">
+  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/CENTOS_vs_DEBIAN.png"/>
+</div>
 
 ## APT and `aptitude`
 Both are related to package management. They are used for package search, removal, and installation, but have different approaches.
