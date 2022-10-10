@@ -143,7 +143,7 @@ $ hostnamectl
 ```
 __Change the hostname__
 
-After modifying the hostname is necessary to reboot the machine to see the changes.
+After modify the hostname is necessary to reboot the machine to see the changes.
 
 ```
 $ sudo nano /etc/hostname
