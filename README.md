@@ -6,9 +6,9 @@ This is a repository to prepare the evaluation of the __School 42__ project __Bo
 For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
 ## Table of contens
-1. [Why a virtual machine(VM)?](##Why-a-virtual-machine)
-2. [APT and aptitude](##APT-and-aptitude-)
-    - [APT *(Advanced Packaging Tool)*](###APT-(Advanced-Packaging-Tool))
+1. [Why a virtual machine(VM)?](##Why-a-virtual-machine-VM)
+2. [APT and aptitude](##APT-and-aptitude)
+    - [APT *(Advanced Packaging Tool)*](###APT-Advanced-Packaging-Tool)
         - [Updating packages with APT](####Updating-packages-with-APT)
     - [Step 3: Connecting to Server via SSH](#step-3-connecting-to-server-via-ssh)
 4. [User Management](#user-management)
