@@ -205,7 +205,7 @@ Accediendo a un servidor remoto a través del protocolo SSH los riesgos de segur
 
 __Connect the VM via SSH__
 ```
-$ ssh adiaz-be@localhost -p 4242
+$ ssh <user-login>@localhost -p 4242
 ```
 __Check SSH status via `sudo service ssh status`__
 ```
@@ -216,11 +216,12 @@ __Check SSH config file__
 $ sudo cat /etc/ssh/sshd_config
 ```
 ## Lightttpd
+__Lighttpd__ (pronounced *'lighty'*) is an open-source web server optimized for speed-critical environments while remaining standards-compliant, secure and flexible.
 __Check lighttpd__ 
 ```
 $ sudo systemctl status lighttpd
 ```
-To check that lightspeed is working: in a browser on the host machine, connect to the following address and port (login into Wordpress): : [http://127.0.0.1:8080](http://127.0.0.1:8080).
+To check that lightspeed is working: in a browser on the host machine, connect to the following address and port (login into Wordpress): [http://127.0.0.1:8080](http://127.0.0.1:8080).
 
 Now, check that PHP is correctly installedx: [http://127.0.0.1:8080/info.php](http://127.0.0.1:8080/info.php)
 ### Check PHP version
