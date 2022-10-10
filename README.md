@@ -42,14 +42,14 @@ Aptitude is vaster in functionality than `apt-get` and integrates functionalitie
 
 ## SELinux y AppArmor
 
-### SELinux (*Security-Enhanced Linux*) 
-SELinux es una __arquitectura de seguridad__ para los sistemas Linux que permite que los administradores tengan mayor control sobre las personas que pueden acceder a ellos. SELinux define los controles de acceso para las aplicaciones, los procesos y los archivos dentro de un sistema. Utiliza políticas de seguridad, que consisten en un conjunto de __reglas para indicar a SELinux a qué elementos se puede acceder__.
+### SELinux (*Security-Enhanced Linux*)
+SELinux is a __security architecture__ for Linux systems that allows administrators more control over who can access them. SELinux defines access controls for applications, processes, and files within a system. It uses security policies, which consist of a set of __rules to tell SELinux which elements can be accessed__.
 
 ### AppArmor (*Application Armor*)
-AppArmor es un __módulo de seguridad__ del kernel Linux que permite al administrador del sistema __restringir las capacidades de un programa__.
+AppArmor is a Linux kernel __security module__ that allows the system administrator to __restrict the capabilities of a program__.
 
 ## UFW(*Uncomplicated Firewall*)
-UFW es un cortafuegos que destaca por su simplicidad desarrollado por Ubuntu. Utiliza la línea de comandos para configurar las iptables usando un pequeño número de comandos simples. UFW está escrito en python y es un programa para GNU/Linux.
+__UFW__ is a firewall developed by Ubuntu that stands out for its simplicity . Use the command line to configure iptables using a small number of simple commands. UFW is written in __python__ and is a GNU/Linux program.
 
 __Check UFW status via `sudo ufw status`__
 ```
@@ -143,7 +143,7 @@ $ hostnamectl
 ```
 __Change the hostname__
 
-After modify the hostname is necessary to reboot the machine to see the changes.
+After modify the hostname is necessary to reboot the machine to apply the changes.
 
 ```
 $ sudo nano /etc/hostname
