@@ -264,6 +264,7 @@ $ php -v
 ```
 ## Fail2ban
 __Fail2ban__ is a program that analyses server logs to identify and ban __suspicious IP addresses__. If it finds multiple failed login attempts or automated attacks from an IP address, it can block it with the firewall, either temporarily or permanently.
+
 __Check Fail2ban__
 ```
 $ sudo systemctl status fail2ban
