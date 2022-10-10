@@ -69,7 +69,7 @@ To use `aptitude` by command terminal, like `apt-get`, you must be logged in as 
 #### Differences between `aptitude` and APT
 The main difference is that __aptitude is a high-level package manager while APT is lower-level package manager__ which can be used by other higher-level package managers, other main highlights that separate these two package managers are:
 
-Aptitude is vaster in functionality than `apt-get` and integrates functionalities of `apt-get` and its other variants including `apt-mark` and `apt-cache`. While `apt-get` handles all the package installation, up-gradation, system-upgradation, purging package, resolving dependencies etc., Aptitude handles lot more stuff than APT, including functionalities of `apt-mark` and `apt-cache` i.e. searching for a package in list of installed packages, marking a package to be automatically or manually installed, holding a package making it unavailable for up-gradation and so on. [(source)](https://www.tecmint.com/difference-between-apt-and-aptitude/)
+Aptitude is vaster in functionality than `apt-get` and integrates functionalities of `apt-get` and its other variants including `apt-mark` and `apt-cache`. While `apt-get` handles all the package installation, up-gradation, system-upgradation, purging package, resolving dependencies etc. Aptitude handles lot more stuff than APT, including functionalities of `apt-mark` and `apt-cache` i.e. searching for a package in list of installed packages, marking a package to be automatically or manually installed, holding a package making it unavailable for up-gradation and so on. [(source)](https://www.tecmint.com/difference-between-apt-and-aptitude/)
 
 ## SELinux y AppArmor
 
