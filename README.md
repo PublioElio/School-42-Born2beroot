@@ -192,7 +192,7 @@ $ crontab -e
 ```
 __Check the crontab jobs__
 ```
-$ sudo cat /var/spool/cron/crontabs/<hostname/root>
+$ sudo cat /var/spool/cron/crontabs/<username/root>
 ```
 __Disable Cron service__
 ```
@@ -205,7 +205,7 @@ Accediendo a un servidor remoto a través del protocolo SSH los riesgos de segur
 
 __Connect the VM via SSH__
 ```
-$ ssh <hostname>@localhost -p 4242
+$ ssh <username>@localhost -p 4242
 ```
 __Check SSH status via `sudo service ssh status`__
 ```
@@ -237,7 +237,7 @@ $ sudo systemctl status fail2ban
 
 __Get VM disk ID__
 ```
-$ shasum <path-to-.vdi>
+$ shasum <path-to.vdi>
 ```
 
 ## User Management
