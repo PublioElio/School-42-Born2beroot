@@ -14,9 +14,9 @@ For more details about this project, read the [subject](https://github.com/Publi
         - [Updating packages with APT](#updating-packages-with-apt)
     - [aptitude](#aptitude)
         - [Differences between aptitude and APT](#differences-between-aptitude-and-apt)  
-4. [User Management](#user-management)
-    - [Step 1: Setting Up a Strong Password Policy](#step-1-setting-up-a-strong-password-policy)
-       - [Password Age](#password-age)
+3. [SELinux y AppArmor](#selinux-y-apparmor)
+    - [SSELinux (*Security-Enhanced Linux*)](#selinux-security-enhanced-linux)
+    - [AppArmor (*Application Armor*)](#apparmor-application-armor)
        - [Password Strength](#password-strength)
     - [Step 2: Creating a New User](#step-2-creating-a-new-user)
     - [Step 3: Creating a New Group](#step-3-creating-a-new-group)
@@ -52,7 +52,6 @@ APT is an open source tool created for the __Debian__ project. APT is designed t
 APT searchs in a list of cached packages and shows the dependencies that need to be __installed or updated__. APT automatically downloads, configures, and installs dependencies.
 
 #### Updating packages with APT
-
 Update installed packages includes:
 
 - `update` is used to __sync__ files from their sources.
@@ -72,7 +71,6 @@ The main difference is that __aptitude is a high-level package manager while APT
 Aptitude is vaster in functionality than `apt-get` and integrates functionalities of `apt-get` and its other variants including `apt-mark` and `apt-cache`. While `apt-get` handles all the package installation, up-gradation, system-upgradation, purging package, resolving dependencies etc. Aptitude handles lot more stuff than APT, including functionalities of `apt-mark` and `apt-cache` i.e. searching for a package in list of installed packages, marking a package to be automatically or manually installed, holding a package making it unavailable for up-gradation and so on. [(source)](https://www.tecmint.com/difference-between-apt-and-aptitude/)
 
 ## SELinux y AppArmor
-
 ### SELinux (*Security-Enhanced Linux*)
 SELinux is a __security architecture__ for Linux systems that allows administrators more control over who can access them. SELinux defines access controls for applications, processes, and files within a system. It uses security policies, which consist of a set of __rules to tell SELinux which elements can be accessed__.
 
