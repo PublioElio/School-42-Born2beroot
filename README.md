@@ -1,6 +1,39 @@
-# School 42 Born2beRoot
+<h1 align="center">Born2beRoot</h1>
+
+> School 42 Málaga cursus project
+
 This is a repository to prepare the evaluation of the __School 42__ project __Born2beRoot__.
 For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
+
+## Table of contens
+1. [Why a virtual machine(VM)?](##Why-a-virtual-machine(VM)?)
+    - [Step 1: Installing *sudo*](#step-1-installing-sudo)
+    - [Step 2: Adding User to *sudo* Group](#step-2-adding-user-to-sudo-group)
+    - [Step 3: Running *root*-Privileged Commands](#step-3-running-root-privileged-commands)
+    - [Step 4: Configuring *sudo*](#step-4-configuring-sudo)
+3. [SSH](#ssh)
+    - [Step 1: Installing & Configuring SSH](#step-1-installing--configuring-ssh)
+    - [Step 2: Installing & Configuring UFW](#step-2-installing--configuring-ufw)
+    - [Step 3: Connecting to Server via SSH](#step-3-connecting-to-server-via-ssh)
+4. [User Management](#user-management)
+    - [Step 1: Setting Up a Strong Password Policy](#step-1-setting-up-a-strong-password-policy)
+       - [Password Age](#password-age)
+       - [Password Strength](#password-strength)
+    - [Step 2: Creating a New User](#step-2-creating-a-new-user)
+    - [Step 3: Creating a New Group](#step-3-creating-a-new-group)
+5. [*cron*](#cron)
+    - [Setting Up a *cron* Job](#setting-up-a-cron-job)
+6. [Bonus](#bonus)
+    - [Installation](#1-installation)
+    - [Linux Lighttpd MariaDB PHP *(LLMP)* Stack](#2-linux-lighttpd-mariadb-php-llmp-stack)
+       - [Step 1: Installing Lighttpd](#step-1-installing-lighttpd)
+       - [Step 2: Installing & Configuring MariaDB](#step-2-installing--configuring-mariadb)
+       - [Step 3: Installing PHP](#step-3-installing-php)
+       - [Step 4: Downloading & Configuring WordPress](#step-4-downloading--configuring-wordpress)
+       - [Step 5: Configuring Lighttpd](#step-5-configuring-lighttpd)
+    - [File Transfer Protocol *(FTP)*](#3-file-transfer-protocol-ftp)
+       - [Step 1: Installing & Configuring FTP](#step-1-installing--configuring-ftp)
+       - [Step 2: Connecting to Server via FTP](#step-2-connecting-to-server-via-ftp)
 
 ## Why a virtual machine(VM)?
 The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the same time, on the same machine. Companies that use many applications must use different configurations of hardware, which has a high maintenance cost, in addition to taking up physical space. VMs are the answer to this and other problems, because it's like emulating an OS. This is a list of the most common reasons to install a VM:
