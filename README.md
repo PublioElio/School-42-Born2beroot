@@ -77,14 +77,14 @@ Aptitude is vaster in functionality than `apt-get` and integrates functionalitie
 ## SELinux and AppArmor
 
 <div id="SELinux" align="center">
-  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/SELinux%20logo.png" width="200"/>
+  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/SELinux%20logo.png" height="200" alt="SELinux logo" />
 </div>
 
 ### SELinux (*Security-Enhanced Linux*)
 SELinux is a __security architecture__ for Linux systems that allows administrators more control over who can access them. SELinux defines access controls for applications, processes, and files within a system. It uses security policies, which consist of a set of __rules to tell SELinux which elements can be accessed__.
 
 <div id="apparmor" align="center">
-  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/apparmor-logo.png" width="200"/>
+  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/apparmor-logo.png" height="200" alt="AppArmor logo" />
 </div>
 
 ### AppArmor (*Application Armor*)
@@ -221,7 +221,7 @@ The file is in `var/log/sudo/sudo.log`
 $ sudo cat /var/log/sudo/sudo.log
 ```
 <div id="cronjobs" align="center">
-  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/cron%20jobs.png" width="450"/>
+  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/cron%20jobs.png" width="600"/>
 </div>
 
 ## Cron
