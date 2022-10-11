@@ -199,6 +199,7 @@ __Then, reboot the machine__
 $ reboot
 ```
 __Change from user to root user__
+
 Remember to use the __root password__!
 ```
 $ sudo su
