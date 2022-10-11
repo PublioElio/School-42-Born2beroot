@@ -220,6 +220,10 @@ The file is in `var/log/sudo/sudo.log`
 ```
 $ sudo cat /var/log/sudo/sudo.log
 ```
+<div id="cronjobs" align="center">
+  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/cron%20jobs.png" width="450"/>
+</div>
+
 ## Cron
 Cron (or crontab, short for chrono table) is a program that enables the execution of scripts or software in an automatic way, at a certain date and time or at a specified interval. It is installed by default in Debian (we can check this with the `apt list cron command`). To test and understand the Cron service, you can use [this page](https://crontab.guru/#*_*_*_*_*).
 
