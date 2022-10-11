@@ -75,6 +75,11 @@ The main difference is that __aptitude is a high-level package manager while APT
 Aptitude is vaster in functionality than `apt-get` and integrates functionalities of `apt-get` and its other variants including `apt-mark` and `apt-cache`. While `apt-get` handles all the package installation, up-gradation, system-upgradation, purging package, resolving dependencies etc. Aptitude handles lot more stuff than APT, including functionalities of `apt-mark` and `apt-cache` i.e. searching for a package in list of installed packages, marking a package to be automatically or manually installed, holding a package making it unavailable for up-gradation and so on. [(source)](https://www.tecmint.com/difference-between-apt-and-aptitude/)
 
 ## SELinux and AppArmor
+
+<div id="SELinux" align="center">
+  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/SELinux%20logo.png" width="200"/>
+</div>
+
 ### SELinux (*Security-Enhanced Linux*)
 SELinux is a __security architecture__ for Linux systems that allows administrators more control over who can access them. SELinux defines access controls for applications, processes, and files within a system. It uses security policies, which consist of a set of __rules to tell SELinux which elements can be accessed__.
 
