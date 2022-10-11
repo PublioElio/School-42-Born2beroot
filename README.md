@@ -83,6 +83,10 @@ Aptitude is vaster in functionality than `apt-get` and integrates functionalitie
 ### SELinux (*Security-Enhanced Linux*)
 SELinux is a __security architecture__ for Linux systems that allows administrators more control over who can access them. SELinux defines access controls for applications, processes, and files within a system. It uses security policies, which consist of a set of __rules to tell SELinux which elements can be accessed__.
 
+<div id="apparmor" align="center">
+  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/apparmor-logo.png" width="200"/>
+</div>
+
 ### AppArmor (*Application Armor*)
 AppArmor is a Linux kernel __security module__ that allows the system administrator to __restrict the capabilities of a program__.
 
