@@ -44,7 +44,7 @@ The main purpose of __VMs__ is to use multiple __operating systems (OS)__ at the
 ## Differences between CENTOS and Debian
 
 <div id="header" align="center">
-  <img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/CENTOS_vs_DEBIAN.png"/>
+  <a href="https://1gbits.com/blog/debian-vs-centos/"><img src="https://github.com/PublioElio/School-42-Born2beroot/blob/main/img/CENTOS_vs_DEBIAN.png" alt="comparison between CENTOS and DEBIAN"/></a>
 </div>
 
 ## APT and `aptitude`
