@@ -27,6 +27,7 @@ For more details about this project, read the [subject](https://github.com/Publi
 6. [Password policy](#password-policy)
 7. [LVM *(Logical Volume Manager)*](#lvm-Logical-volume-manager)
     - [Advantages of LVM](#advantages-of-lvm)
+8. [SSH (Secure SHell)](#ssh-secure-shell)
 9. [Cron](#cron)
     - [monitoring.sh and sleep.sh](#monitoringsh-and-sleepsh)
 10. [Lightttpd](#lightttpd)
