@@ -7,7 +7,7 @@
 > School 42 Málaga cursus project
 
 This is a repository to prepare the evaluation of the __School 42__ project __Born2beRoot__.
-All the contents of this `REAMDME.md` are listed to help during the evaluation of the project, with useful commands, code and the explanation of functionalities and tasks that will be tested.
+All the contents of this `README.md` are listed to help during the evaluation of the project, with useful commands, code and the explanation of functionalities and tasks that will be tested.
 
 For more details about this project, read the [subject](https://github.com/PublioElio/School-42-Born2beroot/blob/main/Born2beRoot.es.subject.pdf).
 
